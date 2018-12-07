@@ -1,0 +1,19 @@
+{
+ 
+ "manifest_version": 2,
+ "name": "Fox Candy",
+ "version": "1.0",
+  
+ "applications": {
+   "gecko": {
+     "id": "fox-candy@rhelmer.org"
+   }
+ },
+
+ "browser_action": {
+   "default_title": "Candy",
+   "default_icon": "data/candy-icon-32.png",
+   "default_popup": "data/panel.html"
+ }
+ 
+}
